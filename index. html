@@ -611,11 +611,6 @@ f<!DOCTYPE html>
                 botMessage.className = 'chat-message bot-message';
                 botMessage.textContent = response;
                 chatBody.appendChild(botMessage);
-                chatBody.scrollTo(() => {
-                const botMessage = document.createElement('div');
-                botMessage.className = 'chat-message bot-message';
-                botMessage.textContent = response;
-                chatBody.appendChild(botMessage);
                 chatBody.scrollTop = chatBody.scrollHeight;
             }, 500);
             
